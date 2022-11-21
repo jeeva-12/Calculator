@@ -29,6 +29,17 @@ public class calculator
              b=sc.nextInt();
              c=a+b;
              System.out.println("Sum="+c);
+             break;
+
+         case 2:
+             System.out.println("Enter First Number");
+             a= sc.nextInt();
+             System.out.println("Enter second number");
+             b=sc.nextInt();
+             c=a-b;
+             System.out.println("Substarction="+c);
+             break;
+
 
      }
 
