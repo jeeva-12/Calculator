@@ -5,7 +5,7 @@ public class calculator
 {
     public static void main(String[] args)
     {
-     int a=0,b=0,option,ex;
+     int option;
 
      {
          Scanner sc=new Scanner(System.in);
@@ -24,5 +24,20 @@ public class calculator
      }
 
      }
+
+        public static void Addition
+    {
+        int a,b,c;
+        System.out.println("Enter 1st Number");
+        Scanner add=new Scanner(System.in);
+        a=add.nextInt();
+        System.out.println("Enter 2nd number");
+        b=add.nextInt();
+        c=a+b;
+        System.out.println("Sum ="+c);
+
+
+    }
+
 
 }
