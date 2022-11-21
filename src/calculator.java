@@ -38,6 +38,7 @@ public class calculator
              b=sc.nextInt();
              c=a-b;
              System.out.println("Substaction="+c);
+             break;
 
          case 3:
              System.out.println("Enter First Number");
@@ -46,6 +47,18 @@ public class calculator
              b=sc.nextInt();
              c=a*b;
              System.out.println("Muliplication="+c);
+             break;
+
+         case 4:
+             System.out.println("Enter First Number");
+             a= sc.nextInt();
+             System.out.println("Enter second number");
+             b=sc.nextInt();
+             c=a/b;
+             System.out.println("Division="+c);
+             break;
+
+
 
 
 
