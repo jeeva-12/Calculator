@@ -58,7 +58,10 @@ public class calculator
              System.out.println("Division="+c);
              break;
 
-
+         case 5:
+             System.exit(0);
+         default:
+             System.out.println("Invaild choice");
 
 
 
